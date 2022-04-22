@@ -15,6 +15,7 @@
 @import "cards-productos";
 @import "accordion";
 @import "responsive";
+@import "switches";
 
 
 
@@ -22,6 +23,10 @@ body{
     background: radial-gradient(circle, rgba(216, 119, 2, 1) 0%, rgba(254, 180, 85, 1) 18%);
     text-align: center;
     margin: auto;
+    transition: .3s ease all;
+    &.dark{
+        background: rgba(0, 0, 0, 0.856);
+    }
 }
 
 footer{

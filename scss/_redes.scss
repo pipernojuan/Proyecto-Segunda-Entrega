@@ -58,6 +58,9 @@ main{
                     text-decoration: none;
                     &:hover{
                         color: #034951;
+                        body.dark &{
+                            color: rgba(216, 119, 2, 0.856);
+                        }
                     }
                 }
             }
