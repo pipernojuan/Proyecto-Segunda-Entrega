@@ -4,11 +4,14 @@
     .red{
         flex-direction: row;
     }
+    .nav-link{
+        font-size: 23px!important;
+    }
 }
 
 @media only screen and (max-width: 1555px){
     .nav-link{
-        font-size: 12px!important;
+        font-size: 15px!important;
     }
 }
 @media only screen and (max-width: 1388px){
@@ -36,8 +39,9 @@
     grid-template-rows: repeat(3,1fr);
     width: 80%;
     }
-    .carrusel{
-        width: 90%;
+    main{
+        .carrusel{
+            width: 90%;}
     }
     .fb{
         font-size: 30px;
@@ -48,7 +52,7 @@
     .delivery{
         font-size: 25px;
     }
-    p{
+    .parrafo{
         font-size: 10px;
     }
     h5{
@@ -68,8 +72,9 @@
     .bg-light{
         background-color: #ffffff!important;
     }
-    .carrusel{
-        width: 100%;
+    main{
+        .carrusel{
+            width: 100%;}
     }
     .caja{
         width: 400px;
@@ -80,27 +85,13 @@
     .social-fixed{
         display: none;
     }
-    .red{
-        .ig{
-            font-size: 25px;
-            background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
-            border-radius: 30%;
-            color: white;
-            margin: 5px;
-            padding: 5px;
-            text-align: center;
-            transition: all 300ms;
-            display: flex;
-            &:hover {
-            transform: scale(1.23);
-            }
-        }
-        .delivery{
-            display: flex;
-        }
-        .fb{
-            display: block;
-        }
+    .red{        
+        display: inline-flex!important;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .parrafo{
+        font-size: 10px;
     }
 }
 @media only screen and (max-width: 500px){
@@ -118,25 +109,17 @@
     .nuestra{
         font-size: 15px;
     }
-    p{
-        font-size: 10px;
-    }
     h5{
         font-size: 10px;
     }
-    .red{
-        .ig{
-            display: flex;
-        }
-        .delivery{
-            display: flex;
-        }
-        .fb{
-            display: block;
-        }
+    .red{        
+        display: inline-flex!important;
+        justify-content: center;
+        flex-wrap: wrap;
     }
-    .carrusel{
-        width: 100%;
+    main{
+        .carrusel{
+            width: 100%;}
     }
     header{
         flex-direction:column;
@@ -152,6 +135,12 @@
         margin: 20px;
         object-fit: cover
     }
+    .botonfinal{
+        font-size: 10px;
+    }
+    .parrafo{
+        font-size: 10px;
+    }
 }
 @media only screen and (max-width: 281px){
     .caja{
@@ -160,15 +149,13 @@
         margin: 20px;
         object-fit: cover;
     }
-    .red{
-        .ig{
-            display: flex;
-        }
-        .delivery{
-            display: flex;
-        }
-        .fb{
-            display: block;
-        }
+    .red{        
+        display: inline-flex!important;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    main{
+        .carrusel{
+            width: 100%;}
     }
 }

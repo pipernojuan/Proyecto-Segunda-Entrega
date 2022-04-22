@@ -85,7 +85,7 @@ header .redes .elmenu .navbar .logo {
 
 main .carrusel {
   display: inline-block;
-  width: 88%; }
+  width: 90%; }
 
 h3 {
   width: fit-content;
@@ -128,7 +128,7 @@ h3 {
 
 h5 {
   margin-top: 15px;
-  float: left;
+  float: center;
   color: rgba(216, 119, 2, 0.856); }
 
 .parrafo {
@@ -142,39 +142,32 @@ h5 {
   border-radius: 30%; }
 
 footer .red {
-  display: flex;
+  display: none;
   justify-content: center;
   flex-wrap: wrap; }
   footer .red .fb {
-    font-size: 30px;
-    color: #39569c;
+    font-size: 20px;
+    color: gray;
     margin: 3px;
     padding: 5px;
-    top: 0%;
-    transition: all 300ms;
-    display: none; }
+    transition: all 300ms; }
     footer .red .fb:hover {
       transform: scale(1.23); }
   footer .red .ig {
-    font-size: 25px;
-    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
-    border-radius: 30%;
-    color: white;
-    margin: 5px;
+    font-size: 20px;
+    color: gray;
+    margin: 3px;
     padding: 5px;
-    text-align: center;
-    transition: all 300ms;
-    display: none; }
+    transition: all 300ms; }
     footer .red .ig:hover {
       transform: scale(1.23); }
   footer .red .delivery {
-    font-size: 27px;
-    color: #292929;
+    font-size: 17px;
+    color: gray;
     margin: 5px;
     padding: 5px;
     text-align: center;
-    transition: all 300ms;
-    display: none; }
+    transition: all 300ms; }
     footer .red .delivery:hover {
       transform: scale(1.23); }
 
@@ -244,11 +237,13 @@ main .social-fixed {
 /* Responsive */
 @media only screen and (max-width: 1850px) {
   .red {
-    flex-direction: row; } }
+    flex-direction: row; }
+  .nav-link {
+    font-size: 23px !important; } }
 
 @media only screen and (max-width: 1555px) {
   .nav-link {
-    font-size: 12px !important; } }
+    font-size: 15px !important; } }
 
 @media only screen and (max-width: 1388px) {
   .nav-link {
@@ -267,7 +262,7 @@ main .social-fixed {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     width: 80%; }
-  .carrusel {
+  main .carrusel {
     width: 90%; }
   .fb {
     font-size: 30px; }
@@ -275,7 +270,7 @@ main .social-fixed {
     font-size: 25px; }
   .delivery {
     font-size: 25px; }
-  p {
+  .parrafo {
     font-size: 10px; }
   h5 {
     font-size: 15px; }
@@ -290,7 +285,7 @@ main .social-fixed {
     justify-content: center; }
   .bg-light {
     background-color: #ffffff !important; }
-  .carrusel {
+  main .carrusel {
     width: 100%; }
   .caja {
     width: 400px;
@@ -299,22 +294,12 @@ main .social-fixed {
     display: inline-block; }
   .social-fixed {
     display: none; }
-  .red .ig {
-    font-size: 25px;
-    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
-    border-radius: 30%;
-    color: white;
-    margin: 5px;
-    padding: 5px;
-    text-align: center;
-    transition: all 300ms;
-    display: flex; }
-    .red .ig:hover {
-      transform: scale(1.23); }
-  .red .delivery {
-    display: flex; }
-  .red .fb {
-    display: block; } }
+  .red {
+    display: inline-flex !important;
+    justify-content: center;
+    flex-wrap: wrap; }
+  .parrafo {
+    font-size: 10px; } }
 
 @media only screen and (max-width: 500px) {
   .gallery-conteiner {
@@ -327,17 +312,13 @@ main .social-fixed {
     font-size: 20px; }
   .nuestra {
     font-size: 15px; }
-  p {
-    font-size: 10px; }
   h5 {
     font-size: 10px; }
-  .red .ig {
-    display: flex; }
-  .red .delivery {
-    display: flex; }
-  .red .fb {
-    display: block; }
-  .carrusel {
+  .red {
+    display: inline-flex !important;
+    justify-content: center;
+    flex-wrap: wrap; }
+  main .carrusel {
     width: 100%; }
   header {
     flex-direction: column;
@@ -348,7 +329,11 @@ main .social-fixed {
     width: 300px;
     height: 158px;
     margin: 20px;
-    object-fit: cover; } }
+    object-fit: cover; }
+  .botonfinal {
+    font-size: 10px; }
+  .parrafo {
+    font-size: 10px; } }
 
 @media only screen and (max-width: 281px) {
   .caja {
@@ -356,12 +341,12 @@ main .social-fixed {
     height: 180px;
     margin: 20px;
     object-fit: cover; }
-  .red .ig {
-    display: flex; }
-  .red .delivery {
-    display: flex; }
-  .red .fb {
-    display: block; } }
+  .red {
+    display: inline-flex !important;
+    justify-content: center;
+    flex-wrap: wrap; }
+  main .carrusel {
+    width: 100%; } }
 
 body {
   background: radial-gradient(circle, #d87702 0%, #feb455 18%);
@@ -374,7 +359,10 @@ footer {
   margin-top: 20px;
   background-color: black;
   border-top-style: solid;
-  border-bottom-style: solid; }
+  border-bottom-style: solid;
+  display: inline-block;
+  width: 100%; }
   footer .botonfinal {
     font-family: 'Poppins', sans-serif;
-    text-decoration: none; }
+    text-decoration: none;
+    display: block; }

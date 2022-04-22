@@ -31,9 +31,12 @@ footer{
     background-color: black;
     border-top-style: solid;
     border-bottom-style: solid;
+    display:inline-block;
+    width: 100%;
     .botonfinal{
         font-family: 'Poppins', sans-serif;
         text-decoration: none;
+        display: block;
     }
 }
 
