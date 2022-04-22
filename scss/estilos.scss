@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "animaciones";
+@import "header";
+@import "logo";
+@import "carrusel";
+@import "diferentes-h";
+@import "parrafoindex";
+@import "redes";
+@import "galeria-churros";
+@import "cards-productos";
+@import "accordion";
+@import "responsive";
+
+
+
+body{
+    background: radial-gradient(circle, rgba(216, 119, 2, 1) 0%, rgba(254, 180, 85, 1) 18%);
+    text-align: center;
+    margin: auto;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Alegreya', serif;
+    margin-top: 20px;
+    background-color: black;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    .botonfinal{
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+    }
+}
+

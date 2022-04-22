@@ -1,0 +1,14 @@
+.row {
+    --bs-gutter-x:0rem;
+    .colorcard {
+    color: #000000;
+    background-color: #d77800;
+    border-color: #000000;
+        &:hover {
+        color: #ffffff;
+        background-color: #034951;
+        border-color: #034951;
+        text-transform: uppercase;
+        }
+    }
+}
