@@ -211,13 +211,25 @@ main .social-fixed {
 
 .row {
   --bs-gutter-x:0rem; }
+  .row .card {
+    background-color: #034951;
+    border: none; }
+    body.dark .row .card {
+      background-color: #ffffff; }
+    .row .card p {
+      color: white; }
+      body.dark .row .card p {
+        color: #034951; }
   .row .colorcard {
     color: #000000;
     background-color: #d77800;
     border-color: #000000; }
+    body.dark .row .colorcard {
+      background-color: #034951;
+      color: white; }
     .row .colorcard:hover {
       color: #ffffff;
-      background-color: #034951;
+      background-color: #000000;
       border-color: #034951;
       text-transform: uppercase; }
 
