@@ -70,7 +70,7 @@ header {
             flex-wrap: wrap;
             transition: all 300ms;
             font-family: 'Poppins', sans-serif;
-            font-size: 30px; }
+            font-size: 25px; }
             header .redes .elmenu .navbar-light .nav-item .nav-link:hover {
               transform: scale(1.1);
               color: #034951; }
@@ -88,6 +88,8 @@ header .redes .elmenu .navbar .logo {
 main .carrusel {
   display: inline-block;
   width: 90%; }
+  main .carrusel [type=button]:not(:disabled), main .carrusel [type=reset]:not(:disabled), main .carrusel [type=submit]:not(:disabled), main .carrusel button:not(:disabled) {
+    cursor: url(../media/churro2.jpg), auto; }
 
 h3 {
   width: fit-content;
@@ -215,23 +217,28 @@ main .social-fixed {
     background-color: #034951;
     border: none; }
     body.dark .row .card {
-      background-color: #ffffff; }
+      background-color: #000000c4; }
     .row .card p {
       color: white; }
       body.dark .row .card p {
-        color: #034951; }
+        color: #ffffff; }
   .row .colorcard {
     color: #000000;
     background-color: #d77800;
     border-color: #000000; }
     body.dark .row .colorcard {
       background-color: #034951;
-      color: white; }
+      color: black; }
     .row .colorcard:hover {
       color: #ffffff;
       background-color: #000000;
       border-color: #034951;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      cursor: url(../media/churro2.jpg), auto; }
+      body.dark .row .colorcard:hover {
+        color: #d77800;
+        background-color: #000000;
+        border-color: #034951; }
 
 /* Accordion */
 .acord {
@@ -261,21 +268,9 @@ main .social-fixed {
 
 @media only screen and (max-width: 1555px) {
   .nav-link {
-    font-size: 15px !important; } }
+    font-size: 12px !important; } }
 
-@media only screen and (max-width: 1388px) {
-  .nav-link {
-    font-size: 17px; } }
-
-@media only screen and (max-width: 1131px) {
-  .navbar .navbar-light {
-    font-size: 9px; }
-  .navbar .navbar-nav {
-    font-size: 9px; }
-  .navbar .nav-link.active {
-    font-size: 9px; } }
-
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1170px) {
   .gallery-conteiner {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -373,7 +368,8 @@ main .social-fixed {
   position: relative;
   cursor: pointer;
   display: flex;
-  outline: none; }
+  outline: none;
+  margin-right: 35px; }
   .switch::after {
     content: "";
     display: block;
@@ -386,7 +382,8 @@ main .social-fixed {
     right: unset;
     border-radius: 100px;
     transition: .3s ease all;
-    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2); }
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+    cursor: url(../media/churro2.jpg), auto; }
   .switch.active {
     background: orange;
     color: #000; }
@@ -403,9 +400,14 @@ main .social-fixed {
 
 body {
   background: radial-gradient(circle, #d87702 0%, #feb455 18%);
+  cursor: url(../media/churro2.jpg), auto;
   text-align: center;
   margin: auto;
   transition: .3s ease all; }
+  body a {
+    cursor: url(../media/churro2.jpg), auto; }
+  body span {
+    cursor: url(../media/churro2.jpg), auto; }
   body.dark {
     background: rgba(0, 0, 0, 0.856); }
 
