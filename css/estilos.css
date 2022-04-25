@@ -252,6 +252,8 @@ main .social-fixed {
     width: 80%; }
   main .carrusel {
     width: 90%; }
+  main .social-fixed {
+    display: none; }
   .fb {
     font-size: 30px; }
   .ig {
@@ -268,7 +270,7 @@ main .social-fixed {
     margin: 40px;
     display: inline-block; } }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
   .elmenu {
     justify-content: center; }
   .bg-light {
@@ -281,9 +283,6 @@ main .social-fixed {
   height: 300px;
   margin: 40px;
   display: inline-block; }
-
-.social-fixed {
-  display: none; }
 
 .red {
   display: inline-flex !important;

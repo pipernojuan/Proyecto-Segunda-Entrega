@@ -24,6 +24,9 @@
     main{
         .carrusel{
             width: 90%;}
+        .social-fixed{
+            display: none;
+        }
     }
     .fb{
         font-size: 30px;
@@ -47,7 +50,7 @@
         display: inline-block;
     }
 }
-@media only screen and (max-width: 991px){
+@media only screen and (max-width: 992px){
     .elmenu{
         justify-content: center;
     }
@@ -66,16 +69,10 @@
         margin: 40px;
         display: inline-block;
     }
-    .social-fixed{
-        display: none;
-    }
     .red{        
         display: inline-flex!important;
         justify-content: center;
         flex-wrap: wrap;
-    }
-    .parrafo{
-        font-size: 10px;
     }
 @media only screen and (max-width: 500px){
     .gallery-conteiner{
