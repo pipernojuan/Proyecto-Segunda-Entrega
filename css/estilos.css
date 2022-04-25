@@ -290,9 +290,6 @@ main .social-fixed {
   justify-content: center;
   flex-wrap: wrap; }
 
-.parrafo {
-  font-size: 10px; }
-
 @media only screen and (max-width: 500px) {
   .gallery-conteiner {
     grid-template-columns: repeat(1, 1fr);
