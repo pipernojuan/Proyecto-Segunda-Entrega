@@ -56,8 +56,10 @@
     }
     main{
         .carrusel{
-            width: 100%;}
+            width: 100%;
+        }
     }
+}
     .caja{
         width: 400px;
         height: 300px;
@@ -75,7 +77,6 @@
     .parrafo{
         font-size: 10px;
     }
-}
 @media only screen and (max-width: 500px){
     .gallery-conteiner{
     grid-template-columns: repeat(1,1fr);

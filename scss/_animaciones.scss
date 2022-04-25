@@ -1,45 +1,7 @@
 /* Animations */
 main{
-    .animacion{
-        display: grid;
+    .wow{
+        display: block;
         flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-            .caja {
-            width: 900px;
-            height: 700px;
-            margin: 40px;
-            display: inline-block;
-        }
-
-            .foto1 {
-            background-image: url(./media/twochurrosfoto10.jpg);
-            background-position: cover;
-        }
-        
-            .foto2 {
-            background-image: url(./media/twochurrosfoto11.jpg);
-            background-position: cover;
-        }
-
-            .foto3 {
-            background-image: url(./media/twochurrosfoto4.jpg);
-            background-position: cover;
-        }
-
-            .color1 {
-            background-color: red;
-            border-radius: 20%;
-        }
-
-            .color2 {
-            background-color: blue;
-            border-radius: 10%;
-        }
-
-            .color3 {
-            background-color: green;
-            border: dotted gray 3px;
-        }
     }
 }

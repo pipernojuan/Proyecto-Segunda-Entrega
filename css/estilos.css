@@ -4,34 +4,9 @@
   box-sizing: border-box; }
 
 /* Animations */
-main .animacion {
-  display: grid;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly; }
-  main .animacion .caja {
-    width: 900px;
-    height: 700px;
-    margin: 40px;
-    display: inline-block; }
-  main .animacion .foto1 {
-    background-image: url(./media/twochurrosfoto10.jpg);
-    background-position: cover; }
-  main .animacion .foto2 {
-    background-image: url(./media/twochurrosfoto11.jpg);
-    background-position: cover; }
-  main .animacion .foto3 {
-    background-image: url(./media/twochurrosfoto4.jpg);
-    background-position: cover; }
-  main .animacion .color1 {
-    background-color: red;
-    border-radius: 20%; }
-  main .animacion .color2 {
-    background-color: blue;
-    border-radius: 10%; }
-  main .animacion .color3 {
-    background-color: green;
-    border: dotted gray 3px; }
+main .wow {
+  display: block;
+  flex-direction: row; }
 
 header {
   display: flex; }
@@ -299,20 +274,24 @@ main .social-fixed {
   .bg-light {
     background-color: #ffffff !important; }
   main .carrusel {
-    width: 100%; }
-  .caja {
-    width: 400px;
-    height: 300px;
-    margin: 40px;
-    display: inline-block; }
-  .social-fixed {
-    display: none; }
-  .red {
-    display: inline-flex !important;
-    justify-content: center;
-    flex-wrap: wrap; }
-  .parrafo {
-    font-size: 10px; } }
+    width: 100%; } }
+
+.caja {
+  width: 400px;
+  height: 300px;
+  margin: 40px;
+  display: inline-block; }
+
+.social-fixed {
+  display: none; }
+
+.red {
+  display: inline-flex !important;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.parrafo {
+  font-size: 10px; }
 
 @media only screen and (max-width: 500px) {
   .gallery-conteiner {
